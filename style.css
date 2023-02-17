@@ -1,0 +1,199 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+
+.container{
+    padding: 10px 10%;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 140px;
+    color: yellow;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+
+nav ul li a{
+    color: rgb(124, 115, 115);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: white;
+
+}
+
+
+
+.container-2{
+
+    display: flex;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 133px;
+    
+
+}
+
+span{
+    color: grey;
+}
+
+.header-text{
+
+    margin-top: 7%;
+    font-size: 30px;
+    
+    
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.header-text p{
+    font-size: 18px;
+    padding-top: 10px;
+    text-justify: auto;
+    color: grey;
+    
+}
+
+.myimg{
+    position: absolute;
+    right: 255px;  
+    z-index: 1;
+}
+
+.header-text2{
+    position: absolute;
+    left: 671px;
+}
+
+.arrow{
+    width: 7%;
+}
+
+.arr{
+    display: flex;
+    margin-bottom: 2px;
+    align-items: center;
+}
+
+.arr p{
+    color: grey;
+    font-weight: bolder;
+}
+
+.arr p:hover{
+    color: white;
+}
+
+
+#centerdiv{
+    background-color: #403F50;
+    height: auto;
+    width: 75%;
+    position: relative;
+    left: 133px;
+    margin-top: 25px;
+    display: flex;
+    z-index: 1;
+    border-radius: 2px;
+}
+
+.images{
+    width: 50%;
+    height: 90%;
+}
+.nestedcenterdiv{
+    margin: 0px 0px 0px 60px;
+    padding-top:50px ;
+    padding-left: 60px;
+    background-color: grey;
+    
+    
+}
+
+.childs {
+    columns:2;
+    
+}
+
+.childs li {
+    list-style: none;
+    
+}
+.childs b {
+    color: yellow;
+    text-decoration: none;
+}
+.row {
+    width: 80%;
+    max-width: 1440px;
+    margin: auto;
+}
+.col {
+    width: 48%;
+    display: inline-block;
+    margin-top: 111px;
+}
+ul.post li {
+    display: flex;
+}
+ul.post li img {
+    max-width: 50px;
+}
+ul.post li {
+    justify-content: space-between;
+}
+.cont {
+    display: flex;
+}
+ul.post {
+    max-width: 310px;
+    margin-left: auto;
+    margin-right: 0px;
+    
+}
+
+.cont{
+    margin-bottom: 56px;
+}
